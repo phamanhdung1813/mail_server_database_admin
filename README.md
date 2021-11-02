@@ -97,7 +97,7 @@ sudo service iptables save
 
 3. CREATE DATABASE ACCOUNT AND GRANT PERMISSION
 * mysql -u root -p
-* GRANT SELECT ON namedb.* TO 'adpham1'@'%' identified by 'Anhdung1302';
+* GRANT SELECT ON namedb.* TO 'adpham1'@'%' identified by 'password';
 * FLUSH PRIVILEGES;
 
 # MAIL CLIENT CONFIGURATION
